@@ -1,0 +1,47 @@
+.Header{
+    height: 5rem;
+    background-color: rgb(255,206,0);
+    width: 100%;
+    display: inline-block;
+}
+.logo{
+    z-index: 1;
+    width: 9%;
+    float: left;
+
+}
+.middleHeader{
+    display: inline-block;
+    width: 20%;
+    box-sizing: border-box;
+    text-align: right;
+    margin: 1.3em 0;
+}
+.middleHeader button{
+    border-style: none;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 28px;
+    font-weight: 500;
+    color: white;
+}
+.headerMenu{
+    display: inline-block;
+    width: 70%;    
+}
+.headerMenu span{
+      padding: 0 8px;
+      font-weight: 500;
+}
+.headerMenu span:hover{
+ 
+  
+  animation-name: expand;
+  animation-duration: 300ms;
+  animation-fill-mode: forwards;
+ 
+}
+@keyframes expand {
+    100% { font-size: 1.1rem;font-weight: 500;}
+}
+
